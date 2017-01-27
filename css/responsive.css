@@ -1,0 +1,45 @@
+ #gallery{
+        width: 80%;
+    }
+
+@media (min-width:992px) { 
+
+figure { 
+ width: 32%; 
+    margin: 0;
+	margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+} 
+} 
+
+@media (min-width:768px) and (max-width:992px) { 
+
+figure { 
+ width: 49%;
+    margin: 0;
+	margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+} 
+} 
+
+@media (max-width:768px) { 
+
+figure { 
+ width: 100%;
+    margin: 0;
+	margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+} 
+} 
+
+@media screen and (max-width:480px){
+    #gallery{
+        width: 100%;
+    }
+}
